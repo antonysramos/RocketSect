@@ -1,0 +1,144 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+--ff-primary: 'JetBrains Mono', monospace;
+--ff-secondary: 'Open Sans', sans-serif;
+--fc-primary: #FFFFFF;
+--fc-secondary: #C2C2C2;
+--fc-span: #00bfa6;
+}
+
+
+body {
+  background-color: #2C2B3D;
+}
+
+.container {
+  margin-top: 35px;
+  margin-right: 90px;
+  margin-left: 90px;
+  margin-bottom: 0px;
+}
+
+header {
+  display: flex;
+  color: var(--fc-primary);
+  font-weight: normal;
+  justify-content: space-between;
+  align-items: center;
+
+  margin-bottom: 60px;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+}
+
+.logo p {
+  font-family: var(--ff-primary);
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+header a{
+  text-decoration: none;
+  color: var(--fc-primary);
+}
+
+#logo {
+  font-family: var(--ff-primary);
+  font-weight: bold;
+  font-size: 24px;
+  line-height: 28px;
+}
+
+header img {
+  width: 13.14px;
+  height: 16px;
+  margin: 2px 3px 0;
+}
+
+.menu {
+  display: flex;
+  gap: 64px;
+  font-family: var(--ff-primary);
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 28px;
+}
+
+main {
+  display: flex;
+  gap: 64px;
+  width: auto;
+  margin-bottom: 77px;
+}
+
+.textmain {
+  justify-content: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.textmain h2 {
+  font-family: var(--ff-primary);
+  color: var(--fc-primary);
+  font-weight: 700;
+  font-size: 25px;
+  line-height: 40px;
+  margin-bottom: 52px;
+}
+
+span {
+  color: var(--fc-span);
+}
+
+.textmain p {
+  color: var(--fc-secondary);
+  font-family: var(--ff-secondary);
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+
+}
+
+
+footer {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+
+}
+
+footer .line {
+  width: 568px;
+  background-color: hsla(172, 100%, 37%, 1); 
+  height: 1px;
+  margin-bottom:7px;
+}
+
+footer p {
+  font-family: var(--ff-primary);
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 28px;
+  color: var(--fc-primary);
+}
+
+footer p a {
+  text-decoration: none;
+  color: var(--fc-primary);
+}
+
+footer p a:hover {
+  color: var(--fc-span);
+}
